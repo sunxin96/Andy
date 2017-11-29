@@ -6,7 +6,7 @@ import com.tc25.bean.User;
 
 public class UserManage {
 
-	/*private ArrayList<User> userList = new ArrayList<>();
+	private ArrayList<User> userList = new ArrayList<>();
 	private ArrayList<Integer> idList = new ArrayList<>();
 	private ArrayList<String> accList = new ArrayList<>();
 	public int idCreate() {
@@ -66,7 +66,7 @@ public class UserManage {
 		for (User user : userList) {			
 			System.out.println(user.toString());						
 		}
-	}*/
+	}
 	
 	
 }

@@ -1,4 +1,4 @@
-package com.tc25.data;
+ package com.tc25.data;
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ import com.tc25.bean.DVD;
 
 public class DvdManage {
 
-	/*private ArrayList<DVD> dvdList = new ArrayList<>();
+	private ArrayList<DVD> dvdList = new ArrayList<>();
 	private ArrayList<Integer> idList = new ArrayList<>();
 	
 	public int idCreate() {
@@ -52,7 +52,7 @@ public class DvdManage {
 	}
 	public void checkAllLendableDvd() {
 		for (DVD dvd : dvdList) {
-			if(dvd.isDvdStatus()) {
+			if(dvd.isDvdStatus()==1) {
 				System.out.println(dvd.toString());
 			}
 		}
@@ -80,9 +80,9 @@ public class DvdManage {
 		if(count!=0) {
 			return true;
 		}
-		return false;*/
+		return false;
 	}
-	
+}
 	
 	
 	

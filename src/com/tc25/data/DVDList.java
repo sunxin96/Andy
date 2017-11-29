@@ -15,16 +15,16 @@ public class DVDList {
 	}
 	
 	public void init() {
-		dvdList.add(new DVD(idCreate(),"皮卡丘",0,null,1));
-		dvdList.add(new DVD(idCreate(),"奥特曼",0,null,1));
-		dvdList.add(new DVD(idCreate(),"火影",0,null,1));
-		dvdList.add(new DVD(idCreate(),"数码宝贝",0,null,1));
-		dvdList.add(new DVD(idCreate(),"亚古兽",0,null,1));
-		dvdList.add(new DVD(idCreate(),"鸡儿受",0,null,1));
-		dvdList.add(new DVD(idCreate(),"海贼王",0,null,1));
-		dvdList.add(new DVD(idCreate(),"美少女战士",0,null,1));
-		dvdList.add(new DVD(idCreate(),"月礼服假面",0,null,1));
-		dvdList.add(new DVD(idCreate(),"格里格里",0,null,1));
+		dvdList.add(new DVD(idCreate(),"一仙难求",0,null,1));
+		dvdList.add(new DVD(idCreate(),"仙道求索",0,null,1));
+		dvdList.add(new DVD(idCreate(),"凡人修仙",0,null,1));
+		dvdList.add(new DVD(idCreate(),"斗破苍穹",0,null,1));
+		dvdList.add(new DVD(idCreate(),"仙剑奇侠",0,null,1));
+		dvdList.add(new DVD(idCreate(),"星辰变",0,null,1));
+		dvdList.add(new DVD(idCreate(),"盘龙",0,null,1));
+		dvdList.add(new DVD(idCreate(),"佣兵天下",0,null,1));
+		dvdList.add(new DVD(idCreate(),"Fate/Zero",0,null,1));
+		dvdList.add(new DVD(idCreate(),"春药之灵",0,null,1));
 		
 	}
 }

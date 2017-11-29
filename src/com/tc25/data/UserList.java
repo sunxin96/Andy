@@ -45,21 +45,22 @@ public class UserList {
 	public int idCreate() {
 		idList.add(idList.size()+1);
 		return idList.size();
+		
 	}
 	
-	
+
 	
 	public void init() {
-		userList.add(new User(idCreate(),"Æ¤¿¨Çğ","AAAAAA","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"½ÜÄá¹ê","BBBBBB","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"ÃîÍÜÖÖ×Ó","CCCCCC","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"Ğ¡»ğÁú","DDDDDD","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"°ÂÌØÖ®Íõ","EEEEEE","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"°ÂÌØÖ®¸¸","FFFFFF","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"°ÂÌØÖ®Ä¸","GGGGGG","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"ÌìÊ¹ÊŞ","HHHHHH","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"ÌìÅ®ÊŞ","IIIIII","123456","ÃÜÂë",true));
-		userList.add(new User(idCreate(),"ËïöÎ	","JJJJJJ","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"ÃÖÁ¼","AAAAAA","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"Ğ¡ÄÏ","BBBBBB","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"´øÍÁ","CCCCCC","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"¹íöŞ","DDDDDD","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"µÏ´ïÀ­","EEEEEE","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"Ğ«","FFFFFF","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"½Ç¶¼","GGGGGG","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"³¤ÃÅ","HHHHHH","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"¾ø","IIIIII","123456","ÃÜÂë",true));
+		userList.add(new User(idCreate(),"÷ø","JJJJJJ","123456","ÃÜÂë",true));
 		accMap.put("AAAAAA","123456");
 		accMap.put("BBBBBB","123456");
 		accMap.put("CCCCCC","123456");
